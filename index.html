@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Mensaje Personalizado</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="contenedor">
+    <label for="nombre">Introduzca el nombre</label>
+    <input type="text" id="nombre" placeholder="Escriba su nombre">
+
+    <label for="genero">Seleccione una opción</label>
+    <select id="genero">
+      <option value="">-- Seleccione --</option>
+      <option value="H">H</option>
+      <option value="M">M</option>
+    </select>
+
+    <button id="btnMostrar">Mostrar mensaje</button>
+    <button id="btnLimpiar">Limpiar</button>
+
+    <div id="mensaje"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
